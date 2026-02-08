@@ -2,7 +2,7 @@
 # Copyright (C) 2005-2008 Santiago Gala
 # This file is distributed under the same license as the gitk package.
 # Santiago Gala <santiago.gala@gmail.com>, 2008.
-#
+# LuisB <basuradeluis@gmail.com>, 2026.
 #
 msgid ""
 msgstr ""
@@ -92,23 +92,23 @@ msgstr "Cancelar"
 
 #: gitk:2069
 msgid "&Update"
-msgstr "Actualizar"
+msgstr "Act&ualizar"
 
 #: gitk:2070
 msgid "&Reload"
-msgstr ""
+msgstr "&Recargar"
 
 #: gitk:2071
 msgid "Reread re&ferences"
-msgstr "Releer referencias"
+msgstr "Releer re&ferencias"
 
 #: gitk:2072
 msgid "&List references"
-msgstr "Lista de referencias"
+msgstr "&Mostrar lista de referencias"
 
 #: gitk:2074
 msgid "Start git &gui"
-msgstr ""
+msgstr "Iniciar git &gui"
 
 #: gitk:2076
 msgid "&Quit"
@@ -164,7 +164,7 @@ msgstr "SHA1 ID:"
 
 #: gitk:2229
 msgid "Row"
-msgstr ""
+msgstr "Fila"
 
 #: gitk:2267
 msgid "Find"
@@ -270,11 +270,14 @@ msgstr "Diferencia de seleccionada -> esta"
 
 #: gitk:2619 gitk:2639
 msgid "Make patch"
-msgstr "Crear patch"
+msgstr "Crear parche"
 
 #: gitk:2620 gitk:9254
 msgid "Create tag"
 msgstr "Crear etiqueta"
+
+msgid "Copy commit reference"
+msgstr "Copiar información de la revision"
 
 #: gitk:2621 gitk:9371
 msgid "Write commit to file"
@@ -293,40 +296,45 @@ msgid "Reset HEAD branch to here"
 msgstr "Traer la rama HEAD aquí"
 
 #: gitk:2625
-#, fuzzy
 msgid "Mark this commit"
-msgstr "Añadir esta revisión a la rama actual (cherry-pick)"
+msgstr "Marcar esta revisión"
 
 #: gitk:2626
 msgid "Return to mark"
-msgstr ""
+msgstr "Volver a revisión marcada"
 
 #: gitk:2627
 msgid "Find descendant of this and mark"
-msgstr ""
+msgstr "Buscar descendiente de esta y la marcada"
 
 #: gitk:2628
 msgid "Compare with marked commit"
-msgstr ""
+msgstr "Comparar con revisión marcada"
 
 #: gitk:2629 gitk:2640
-#, fuzzy
 msgid "Diff this -> marked commit"
-msgstr "Diferencia de esta -> seleccionada"
+msgstr "Diferencia de esta -> marcada"
 
 #: gitk:2630 gitk:2641
-#, fuzzy
 msgid "Diff marked commit -> this"
-msgstr "Diferencia de seleccionada -> esta"
+msgstr "Diferencia de marcada -> esta"
 
 #: gitk:2631
-#, fuzzy
 msgid "Revert this commit"
-msgstr "Añadir esta revisión a la rama actual (cherry-pick)"
+msgstr "Revertir esta revisión"
 
 #: gitk:2647
 msgid "Check out this branch"
 msgstr "Cambiar a esta rama"
+
+msgid "Rename this branch"
+msgstr "Renombrar esta rama"
+
+msgid "Rename branch %s"
+msgstr "Renombrar rama '%s'"
+
+msgid "Rename"
+msgstr "Renombrar"
 
 #: gitk:2648
 msgid "Remove this branch"
@@ -334,7 +342,7 @@ msgstr "Eliminar esta rama"
 
 #: gitk:2649
 msgid "Copy branch name"
-msgstr ""
+msgstr "Copiar nombre de rama"
 
 #: gitk:2656
 msgid "Highlight this too"
@@ -346,26 +354,25 @@ msgstr "Seleccionar sólo"
 
 #: gitk:2658
 msgid "External diff"
-msgstr ""
+msgstr "Iniciar comparador externo"
 
 #: gitk:2659
 msgid "Blame parent commit"
-msgstr ""
+msgstr "Ejecutar git blame en el comit padre"
 
 #: gitk:2660
 msgid "Copy path"
-msgstr ""
+msgstr "Copiar ruta del fichero"
 
 #: gitk:2667
 msgid "Show origin of this line"
-msgstr ""
+msgstr "Mostrar origen de esta línea"
 
 #: gitk:2668
 msgid "Run git gui blame on this line"
-msgstr ""
+msgstr "Ejecutar git gui blame en esta línea"
 
 #: gitk:3014
-#, fuzzy
 msgid ""
 "\n"
 "Gitk - a commit viewer for git\n"
@@ -377,7 +384,7 @@ msgstr ""
 "\n"
 "Gitk - un visualizador de revisiones para git\n"
 "\n"
-"Copyright \\u00a9 2005-2016 Paul Mackerras\n"
+"Copyright © 2005-2016 Paul Mackerras\n"
 "\n"
 "Uso y redistribución permitidos según los términos de la Licencia Pública "
 "General de GNU (GNU GPL)"
@@ -660,12 +667,11 @@ msgstr ""
 
 #: gitk:4081
 msgid "Commit Info (regular expressions):"
-msgstr ""
+msgstr "Información del commit (expresiones regulares):"
 
 #: gitk:4082
-#, fuzzy
 msgid "Author:"
-msgstr "Autor"
+msgstr "Autor:"
 
 #: gitk:4083
 #, fuzzy
@@ -674,7 +680,7 @@ msgstr "revisión"
 
 #: gitk:4084
 msgid "Commit Message:"
-msgstr ""
+msgstr "Mensaje del commit:"
 
 #: gitk:4085
 msgid "Matches all Commit Info criteria"
@@ -770,13 +776,12 @@ msgid "-- criteria for selecting revisions"
 msgstr ""
 
 #: gitk:4241
-#, fuzzy
 msgid "View Name"
-msgstr "Vista"
+msgstr "Nombre de la vista"
 
 #: gitk:4316
 msgid "Apply (F5)"
-msgstr ""
+msgstr "Aplicar (F5)"
 
 #: gitk:4354
 msgid "Error in commit selection arguments:"
@@ -882,7 +887,7 @@ msgstr "Hijas"
 #: gitk:8898
 #, tcl-format
 msgid "Reset %s branch to here"
-msgstr "Poner la rama %s en esta revisión"
+msgstr "Poner la rama '%s' en esta revisión (reset)"
 
 #: gitk:8900
 msgid "Detached head: can't reset"
@@ -989,12 +994,14 @@ msgstr "Nombre de etiqueta:"
 
 #: gitk:9268
 msgid "Tag message is optional"
-msgstr ""
+msgstr "El mensaje de la etiqueta es opcional"
 
 #: gitk:9270
-#, fuzzy
 msgid "Tag message:"
-msgstr "Nombre de etiqueta:"
+msgstr "Mensaje de la etiqueta:"
+
+msgid "Create branch"
+msgstr "Crear rama"
 
 #: gitk:9274 gitk:9439
 msgid "Create"
@@ -1033,10 +1040,13 @@ msgstr "Nombre:"
 msgid "Please specify a name for the new branch"
 msgstr "Especifique un nombre para la nueva rama"
 
+msgid "Please specify a new name for the branch"
+msgstr "Especifique un nuevo nombre para la rama"
+
 #: gitk:9463
-#, fuzzy, tcl-format
+#, tcl-format
 msgid "Branch '%s' already exists. Overwrite?"
-msgstr "La etiqueta \"%s\" ya existe"
+msgstr "La rama \"%s\" ya existe. ¿Sobreescribir?"
 
 #: gitk:9530
 #, tcl-format
@@ -1146,6 +1156,10 @@ msgstr "Etiquetas y ramas: %s"
 msgid "Filter"
 msgstr "Filtro"
 
+msgid "Sort refs by type"
+msgstr "Ordenar referencias por tipo"
+
+
 #: gitk:10146
 msgid ""
 "Error reading commit topology information; branch and preceding/following "
@@ -1231,7 +1245,7 @@ msgstr ""
 
 #: gitk:11390
 msgid "Choose..."
-msgstr ""
+msgstr "Escoger..."
 
 #: gitk:11395
 #, fuzzy
@@ -1268,7 +1282,6 @@ msgid "Background"
 msgstr "Fondo"
 
 #: gitk:11421 gitk:11451
-#, fuzzy
 msgid "background"
 msgstr "Fondo"
 
@@ -1277,7 +1290,6 @@ msgid "Foreground"
 msgstr "Primer plano"
 
 #: gitk:11425
-#, fuzzy
 msgid "foreground"
 msgstr "Primer plano"
 
@@ -1286,7 +1298,6 @@ msgid "Diff: old lines"
 msgstr "Diff: líneas viejas"
 
 #: gitk:11429
-#, fuzzy
 msgid "diff old lines"
 msgstr "Diff: líneas viejas"
 
@@ -1295,7 +1306,6 @@ msgid "Diff: new lines"
 msgstr "Diff: líneas nuevas"
 
 #: gitk:11434
-#, fuzzy
 msgid "diff new lines"
 msgstr "Diff: líneas nuevas"
 
@@ -1341,17 +1351,16 @@ msgid "Gitk preferences"
 msgstr "Preferencias de gitk"
 
 #: gitk:11494
-#, fuzzy
 msgid "General"
-msgstr "Generar"
+msgstr "General"
 
 #: gitk:11495
 msgid "Colors"
-msgstr ""
+msgstr "Colores"
 
 #: gitk:11496
 msgid "Fonts"
-msgstr ""
+msgstr "Fuentes"
 
 #: gitk:11546
 #, tcl-format
