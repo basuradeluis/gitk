@@ -358,7 +358,7 @@ msgstr "Iniciar comparador externo"
 
 #: gitk:2659
 msgid "Blame parent commit"
-msgstr ""
+msgstr "Ejecutar git blame en el comit padre"
 
 #: gitk:2660
 msgid "Copy path"
@@ -366,14 +366,13 @@ msgstr "Copiar ruta del fichero"
 
 #: gitk:2667
 msgid "Show origin of this line"
-msgstr ""
+msgstr "Mostrar origen de esta línea"
 
 #: gitk:2668
 msgid "Run git gui blame on this line"
-msgstr ""
+msgstr "Ejecutar git gui blame en esta línea"
 
 #: gitk:3014
-#, fuzzy
 msgid ""
 "\n"
 "Gitk - a commit viewer for git\n"
@@ -385,7 +384,7 @@ msgstr ""
 "\n"
 "Gitk - un visualizador de revisiones para git\n"
 "\n"
-"Copyright \\u00a9 2005-2016 Paul Mackerras\n"
+"Copyright © 2005-2016 Paul Mackerras\n"
 "\n"
 "Uso y redistribución permitidos según los términos de la Licencia Pública "
 "General de GNU (GNU GPL)"
@@ -668,12 +667,11 @@ msgstr ""
 
 #: gitk:4081
 msgid "Commit Info (regular expressions):"
-msgstr ""
+msgstr "Información del commit (expresiones regulares):"
 
 #: gitk:4082
-#, fuzzy
 msgid "Author:"
-msgstr "Autor"
+msgstr "Autor:"
 
 #: gitk:4083
 #, fuzzy
@@ -682,7 +680,7 @@ msgstr "revisión"
 
 #: gitk:4084
 msgid "Commit Message:"
-msgstr ""
+msgstr "Mensaje del commit:"
 
 #: gitk:4085
 msgid "Matches all Commit Info criteria"
@@ -778,13 +776,12 @@ msgid "-- criteria for selecting revisions"
 msgstr ""
 
 #: gitk:4241
-#, fuzzy
 msgid "View Name"
-msgstr "Vista"
+msgstr "Nombre de la vista"
 
 #: gitk:4316
 msgid "Apply (F5)"
-msgstr ""
+msgstr "Aplicar (F5)"
 
 #: gitk:4354
 msgid "Error in commit selection arguments:"
@@ -1248,7 +1245,7 @@ msgstr ""
 
 #: gitk:11390
 msgid "Choose..."
-msgstr ""
+msgstr "Escoger..."
 
 #: gitk:11395
 #, fuzzy
@@ -1285,7 +1282,6 @@ msgid "Background"
 msgstr "Fondo"
 
 #: gitk:11421 gitk:11451
-#, fuzzy
 msgid "background"
 msgstr "Fondo"
 
@@ -1294,7 +1290,6 @@ msgid "Foreground"
 msgstr "Primer plano"
 
 #: gitk:11425
-#, fuzzy
 msgid "foreground"
 msgstr "Primer plano"
 
@@ -1303,7 +1298,6 @@ msgid "Diff: old lines"
 msgstr "Diff: líneas viejas"
 
 #: gitk:11429
-#, fuzzy
 msgid "diff old lines"
 msgstr "Diff: líneas viejas"
 
@@ -1312,7 +1306,6 @@ msgid "Diff: new lines"
 msgstr "Diff: líneas nuevas"
 
 #: gitk:11434
-#, fuzzy
 msgid "diff new lines"
 msgstr "Diff: líneas nuevas"
 
@@ -1358,17 +1351,16 @@ msgid "Gitk preferences"
 msgstr "Preferencias de gitk"
 
 #: gitk:11494
-#, fuzzy
 msgid "General"
-msgstr "Generar"
+msgstr "General"
 
 #: gitk:11495
 msgid "Colors"
-msgstr ""
+msgstr "Colores"
 
 #: gitk:11496
 msgid "Fonts"
-msgstr ""
+msgstr "Fuentes"
 
 #: gitk:11546
 #, tcl-format
